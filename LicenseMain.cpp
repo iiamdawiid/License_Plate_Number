@@ -13,8 +13,8 @@ int main() {
 	std::string DOB;
 
 	std::cout << "Welcome to License Plate Generator!\n"
-		        << "Please enter Name, DOB, and State.\n\n"
-		        << "First name: ";
+		  << "Please enter Name, DOB, and State.\n\n"
+		  << "First name: ";
 	std::cin >> firstName;
 	std::cout << "Last name: ";
 	std::cin >> lastName;
