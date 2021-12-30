@@ -48,15 +48,15 @@ void write_To_File(std::string fName, std::string fDOB, std::string fState, std:
 	std::ofstream myFile;
 	myFile.open("LicenseAndInfo.txt");
 	myFile << "Name : " << fName << std::endl
-		     << "DOB: " << fDOB << std::endl
-		     << "State: " << fState << std::endl
-		     << "LICENSE PLATE: " << fLicense << "\n\n";
+	       << "DOB: " << fDOB << std::endl
+	       << "State: " << fState << std::endl
+	       << "LICENSE PLATE: " << fLicense << "\n\n";
 	myFile.close();
 }
 
 void display_Info(std::string dName, std::string dDOB, std::string dState, std::string license) {
 	std::cout << "Name: " << dName << std::endl
-			      << "DOB: " << dDOB << std::endl
-			      << "State: " << dState << std::endl
-		        << "LICENSE PLATE: " << license << "\n\n";
+	          << "DOB: " << dDOB << std::endl
+                  << "State: " << dState << std::endl
+		  << "LICENSE PLATE: " << license << "\n\n";
 }
